@@ -1,16 +1,16 @@
 import os
 import subprocess
 
-DIR_NAME = "PATH_TO_YOUR_FOLDER"
+DIR_NAME = "<path of the folder>"
 
 folder_name = {
                 "images": ["jpg", "jpeg", "png", "gif", "tiff", "raw"],
-                "videos": ["mpeg", "mp4", "mpv", "avi", "wmv", "mov", "flv"],
+                "videos": ["mpeg", "mp4", "mpv", "avi", "wmv", "mov", "flv", "mkv"],
                 "audio": ["pcm", "wav", "aiff", "mp3", "aac", "ogg", "wma", "flac", "alac", "wma"],
                 "zipped": ["rar", "zip", "tar", "gz"],
                 "pdfs": ["pdf"],
-                "json_xml": ["json", "xml"],
-                "files": ["csv", "xlsx", "tsv", "xls", "txt", "docx"],
+                "config_files": ["json", "xml", "yaml"],
+                "doc_files": ["csv", "xlsx", "tsv", "xls", "txt", "docx"],
                 "other_files": ["iso", "srt"]
                 }
 
